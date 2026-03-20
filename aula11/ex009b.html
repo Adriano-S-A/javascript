@@ -15,8 +15,15 @@
         
         function analisar(){
             var txt1 = document.querySelector('input#txt01')
+            var txt001 = String(txt1.value)
             var res = document.querySelector('div#res')
+            res.style.font = '20pt Arial'
             
+            if (txt001 == 'Brasil'){
+                res.innerHTML = `<p><strong>Você é Brasileiro!</strong></p>`
+            } else {
+                res.innerHTML = `<p><strong>Você é estrangeiro!</strong></p>`
+            }
         }
     </script>
 </body>
