@@ -29,6 +29,7 @@ var diaSem = agora.getDay()
         break
     default:
         console.log('[Erro] Dia Invalido!')
+        break
  }
 
 //Testar ultilizar string
